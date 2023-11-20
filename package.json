@@ -1,5 +1,6 @@
 {
   "name": "sanity-template-vercel-visual-editing",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -11,8 +12,18 @@
     "type-check": "tsc --noEmit"
   },
   "prettier": {
-    "semi": false,
-    "singleQuote": true
+    "arrowParens": "always",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "jsxSingleQuote": true,
+    "printWidth": 85,
+    "quoteProps": "as-needed",
+    "semi": true,
+    "singleAttributePerLine": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false
   },
   "dependencies": {
     "@portabletext/react": "3.0.11",
